@@ -1,0 +1,86 @@
+
+/*
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+*/
+
+
+:root {
+    --color-background: hsl(212, 45%, 89%);
+    --color-primary: hsl(218, 44%, 22%);
+    --color-secundary: hsl(220, 15%, 55%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--color-background);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    display: flex;
+}
+
+/**********************
+        CONTENT        
+**********************/
+section {
+    height: 100%;
+    margin: auto;
+
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    width: 280px;
+    height: 440px;
+}
+
+.container img {
+    margin: 15px 15px 10px 15px;
+    width: 250px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.container h2 {
+    color: var(--color-primary);
+    font-size: 20px;
+    margin: 5px 20px;
+}
+
+.container p {
+    color: var(--color-secundary);
+    font-size: 14px;
+    margin: 10px 20px;
+}
+
+
+/**********************
+        FOOTER          
+**********************/
+.attribution {
+    position: absolute;
+    font-size: 11px;
+    min-width: 100%;
+    bottom: 0px;
+    padding-bottom: 10px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
